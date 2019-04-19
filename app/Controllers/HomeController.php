@@ -7,12 +7,9 @@ class HomeController extends Controller{
   }
 
   public function index(){
-    echo "default method";
+    return $this->view('home');
   }
 
-  public function testing($name){
-    echo $name;
-  }
 }
 
 ?>
