@@ -7,7 +7,9 @@ class HomeController extends Controller{
   }
 
   public function index(){
-    return $this->view('home');
+    // return $this->view('home');
+    $user = $this->model('User');
+    var_dump($user);
   }
 
 }
