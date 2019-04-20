@@ -12,6 +12,11 @@ class HomeController extends Controller{
     // var_dump($user);
   }
 
+  public function getUsers(){
+    $users = $this->model('User')->index();
+    return $this->view('users', ['users' => $users]);
+  }
+
 }
 
 ?>
