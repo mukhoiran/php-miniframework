@@ -1,2 +1,2 @@
 # php-miniframework
-Documentation for create own framework (mini) with PHP
+Create own mini framework with PHP
